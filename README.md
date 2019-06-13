@@ -106,6 +106,9 @@ python get_results.py sample_predictions.csv
 
 Check the terminal output for the scores obtained in the three categories:
 
+## My Model (Inception-Resnet v2)
+Oppose to Inception model (original model) used for this task, I fine-tuned Inception-Resnet v2 model and obtained the below performance. To use my pre-trained weights. Follow this google drive link: https://drive.google.com/drive/folders/1gYLnq0ZI4Nlbp26-pt-atJ5XtkVQaE-Q?usp=sharing
+
 Following are the scores obtained for my model:
 ```text
 Category 1 Score: 0.810
