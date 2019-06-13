@@ -4,8 +4,8 @@
 [image2]: ./images/cat_1.jpeg "Category 1 Rankings"
 [image3]: ./images/cat_2.jpeg "Category 2 Rankings"
 [image4]: ./images/cat_3.png "Category 3 Rankings"
-[image5]: ./images/sample_ROC_curve.png "Sample ROC curve"
-[image6]: ./images/sample_confusion_matrix.png "Sample confusion matrix"
+[image5]: ./images/sample_ROC_curve.png "ROC curve"
+[image6]: ./images/confusion_matrix.png "confusion matrix"
 
 # Dermatologist AI
 
