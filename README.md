@@ -4,7 +4,7 @@
 [image2]: ./images/cat_1.jpeg "Category 1 Rankings"
 [image3]: ./images/cat_2.jpeg "Category 2 Rankings"
 [image4]: ./images/cat_3.png "Category 3 Rankings"
-[image5]: ./images/sample_ROC_curve.png "ROC curve"
+[image5]: ./images/roc_curve.png "roc curve"
 [image6]: ./images/confusion_matrix.png "confusion matrix"
 
 # Dermatologist AI
@@ -105,6 +105,8 @@ python get_results.py sample_predictions.csv
 ```
 
 Check the terminal output for the scores obtained in the three categories:
+
+Following are the scores obtained for my model:
 ```text
 Category 1 Score: 0.810
 Category 2 Score: 0.924
@@ -113,7 +115,8 @@ Category 3 Score: 0.867
 
 The corresponding **ROC curves** appear in a pop-up window, along with the **confusion matrix** corresponding to melanoma classification.  
 
-![ROC curve][image5]
+Following are ROC curves and confusion matrix obtained for my model:
+![roc curve][image5]
 ![confusion matrix][image6]
 
 The code for generating the confusion matrix assumes that the threshold for classifying melanoma is set to 0.5.  To change this threshold, you need only supply an additional command-line argument when calling the `get_results.py` file.  For instance, to set the threshold at 0.4, you need only run:
